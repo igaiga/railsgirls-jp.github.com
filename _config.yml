@@ -1,6 +1,5 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock"]
 safe: true
-auto: true
 pygments: true
 
 title : Rails Girls Guide -Japanese-
@@ -16,7 +15,7 @@ production_url : http://railsgirls-jp.github.com
 
 destination: ./_site
 lsi:         false
-server_port: 4000
+port: 4000
 markdown:    kramdown
 permalink:   pretty
 maruku:
